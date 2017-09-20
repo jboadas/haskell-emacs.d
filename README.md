@@ -1,3 +1,3 @@
-#emacs haskell
+# emacs haskell
 
 my haskell emacs configuration
