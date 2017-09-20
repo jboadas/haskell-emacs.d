@@ -1,0 +1,56 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/devel/haskell/my-yesod/static/" . "tmp/")
+ ("c:/devel/haskell/my-yesod/" . "templates/")
+ ("c:/devel/haskell/" . "my-yesod/")
+ ("c:/devel/" . "haskell/")
+ ("c:/" . "devel/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/devel/haskell/my-yesod/templates/"
+ "c:/devel/haskell/my-yesod/app/"
+ "c:/devel/haskell/my-yesod/"
+ "c:/devel/haskell/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "default-layout-wrapper.hamlet"
+ "devel.hs"
+ "DevelMain.hs"
+ "main.hs"
+ "Foundation.hs"
+ "Settings.hs"
+ "Application.hs"
+ "inicio.hs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/devel/haskell/my-yesod/templates/" (22592 11151 0 0) "profile.hamlet" "homepage.lucius" "homepage.julius" "homepage.hamlet" "default-layout.lucius" "default-layout.hamlet" "default-layout-wrapper.hamlet" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/static/tmp/" (22592 15668 0 0) "autogen-yWbYL5Pf.css" "autogen-r3XaZuvR.js" "autogen-dyDfk8nC.css" "autogen-8iASS6X3.css" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/static/" (22592 15280 0 0) "tmp/" "fonts/" "css/" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/app/" (22592 11151 0 0) "main.hs" "DevelMain.hs" "devel.hs" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/" (22592 19993 0 0) "yesod-devel/" "test/" "templates/" "static/" "stack.yaml" "Settings.hs" "Settings/" "my-yesod.sqlite3" "my-yesod.cabal" "Model.hs" "Import.hs" "Import/" "Handler/" "Foundation.hs" "dist/" "config/" "Application.hs" "app/" ".stack-work/" ".gitignore" ".dir-locals.el" "../" "./")
+
+ ("c:/devel/haskell/" (22592 11151 0 0) "my-yesod/" "inicio.hs" "../" "./")
+
+ ("c:/devel/" (22590 59302 0 0) "WebFControl/" "sigec14-antes limpieza.rar" "sigec14 - antes version perla.rar" "sigec14/" "scala/" "ring.wiki/" "racket/" "perlaairlines/" "perla original.rar" "perla original/" "microsatas-certificado.p12" "Licencia Savannah.rar" "Java/" "Haxe/" "haskell/" "go/" "compile_results.log" "Clojure/" "C++/" "As3/" "ANTES UPDATE 23-07-2013.rar" "00-Design/" "../" "./")
+
+ ("c:/Lisp/" (22591 3660 0 0) "home/" "emacs-24.5/" "Aspell/" ".emacs.d.rar" ".emacs.d/" "../" "./")
+
+ ("c:/Lisp/emacs-24.5/" (22241 29889 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/Lisp/emacs-24.5/bin/" (21827 21370 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
