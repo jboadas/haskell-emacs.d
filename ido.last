@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jboadas/devel/" . "various/")
+ ("/home/jboadas/" . "python.emacs.d/")
  ("c:/devel/haskell/my-yesod/static/" . "tmp/")
  ("c:/devel/haskell/my-yesod/" . "templates/")
  ("c:/devel/haskell/" . "my-yesod/")
@@ -11,6 +13,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jboadas/python.emacs.d/"
+ "/home/jboadas/.emacs.d/"
+ "/home/jboadas/devel/haskell/"
  "c:/devel/haskell/my-yesod/templates/"
  "c:/devel/haskell/my-yesod/app/"
  "c:/devel/haskell/my-yesod/"
@@ -19,10 +24,11 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ "main.hs"
  "default-layout-wrapper.hamlet"
  "devel.hs"
  "DevelMain.hs"
- "main.hs"
  "Foundation.hs"
  "Settings.hs"
  "Application.hs"
@@ -31,6 +37,16 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jboadas/python.emacs.d/" (23046 11814 609657 996000) "snippets/" "README.md" "elpa/" "init.el" "./" ".git/" "auto-save-list/" "ido.last" "themes/" "../" "semanticdb/")
+
+ ("/home/jboadas/.emacs.d/" (23049 57321 758302 786000) "README.md" "elpa/" "init.el" "./" ".git/" "auto-save-list/" "ido.last" "themes/" "../")
+
+ ("/home/jboadas/" (23049 57321 691635 424000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".mplayer/" ".putty/" ".ghc/" ".designer/" ".mysql_history" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".navicat64/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" "Nov13-4.avi" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".pylint.d/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".wingpersonal6/" ".Xclients" ".gtk-bookmarks" ".eric6/" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".idlerc/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" "python.emacs.d/" ".netbeans/" "jagexcache/" ".xsession-errors" ".ipython/" ".swt/" ".pylintrc" ".crawl/" ".icons/" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".mysql/" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".lesshst" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".dmrc" ".ninja_ide/" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/" "python.emacs.d.zip")
+
+ ("/home/jboadas/devel/various/" (22904 60680 200515 298000) "Cataclysm-DDA/" "TerraFirma.tar.gz" "TerraFirma/" "./" "../")
+
+ ("/home/jboadas/devel/" (22971 59388 919198 373000) "bash/" "go/" "python/" "./" "ocaml/" "java/" "various/" "../")
+
  ("c:/devel/haskell/my-yesod/templates/" (22592 11151 0 0) "profile.hamlet" "homepage.lucius" "homepage.julius" "homepage.hamlet" "default-layout.lucius" "default-layout.hamlet" "default-layout-wrapper.hamlet" "../" "./")
 
  ("c:/devel/haskell/my-yesod/static/tmp/" (22592 15668 0 0) "autogen-yWbYL5Pf.css" "autogen-r3XaZuvR.js" "autogen-dyDfk8nC.css" "autogen-8iASS6X3.css" "../" "./")

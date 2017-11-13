@@ -18,8 +18,8 @@
 (unless (package-installed-p 'ido-vertical-mode)
   (package-install 'ido-vertical-mode))
   
-(unless (package-installed-p 'ido-ubiquitous)
-  (package-install 'ido-ubiquitous))
+(unless (package-installed-p 'ido-completing-read+)
+  (package-install 'ido-completing-read+))
   
 (unless (package-installed-p 'flx-ido)
   (package-install 'flx-ido))
@@ -164,7 +164,7 @@
 (ido-vertical-mode 1)
 (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
 
-(require 'ido-ubiquitous)
+(require 'ido-completing-read+)
 (ido-ubiquitous-mode 1)
 
 (require 'flx-ido)
@@ -238,6 +238,10 @@
 (show-paren-mode 1)
 
 (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(company-scrollbar-bg ((t (:background "#191919"))))
  '(company-scrollbar-fg ((t (:background "#0C0C0C"))))
  '(company-tooltip ((t (:inherit default :background "gray15"))))
@@ -257,3 +261,11 @@
 
 (eval-after-load 'flycheck
   '(add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (web-mode smex smartparens ido-vertical-mode ido-completing-read+ hl-todo highlight-parentheses hi2 flycheck-haskell flx-ido company))))
