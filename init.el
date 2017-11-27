@@ -134,13 +134,13 @@
 ;;(blink-cursor-mode -1)
 ;; CAMBIA LA FUENTE POR DEFECTO WINDOWS
 ;; La fuente CONSOLAS debe estar instalada
-(if (member "Consolas" (font-family-list))
-    (set-face-attribute
-     'default nil :font "Consolas 10"))
-;; CAMBIA LA FUENTE POR DEFECTO LINUX
-;; (if (member "Source Code Pro" (font-family-list))
+;; (if (member "Consolas" (font-family-list))
 ;;     (set-face-attribute
-;;      'default nil :font "Source Code Pro 8"))
+;;      'default nil :font "Consolas 10"))
+;; CAMBIA LA FUENTE POR DEFECTO LINUX
+(if (member "Source Code Pro" (font-family-list))
+    (set-face-attribute
+     'default nil :font "Source Code Pro 8"))
 ;; configuracion de powerline
 ;;(add-to-list 'load-path "~/.emacs.d/vendor/powerline")
 ;;(require 'powerline)

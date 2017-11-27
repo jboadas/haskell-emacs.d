@@ -2,8 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/jboadas/devel/" . "various/")
- ("/home/jboadas/" . "python.emacs.d/")
+ ("/home/jboadas/haskell-emacs.d/" . ".emacs.d/")
+ ("/home/jboadas/devel/" . "haskell/")
+ ("/home/jboadas/" . "haskell-emacs.d/")
  ("c:/devel/haskell/my-yesod/static/" . "tmp/")
  ("c:/devel/haskell/my-yesod/" . "templates/")
  ("c:/devel/haskell/" . "my-yesod/")
@@ -13,9 +14,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jboadas/haskell-emacs.d/.emacs.d/"
+ "/home/jboadas/devel/haskell/"
  "/home/jboadas/python.emacs.d/"
  "/home/jboadas/.emacs.d/"
- "/home/jboadas/devel/haskell/"
  "c:/devel/haskell/my-yesod/templates/"
  "c:/devel/haskell/my-yesod/app/"
  "c:/devel/haskell/my-yesod/"
@@ -37,15 +39,21 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jboadas/haskell-emacs.d/.emacs.d/" (23068 1257 473679 773000) "README.md" "elpa/" "init.el" "./" ".git/" "auto-save-list/" "ido.last" "themes/" "../")
+
+ ("/home/jboadas/haskell-emacs.d/" (23068 1257 413677 123000) "./" ".gnupg/" ".emacs.d/" ".smex-items" "../")
+
+ ("/home/jboadas/devel/haskell/" (23049 57040 442036 932000) "./" "main.hs" "../")
+
+ ("/home/jboadas/devel/" (23055 15772 644369 511000) "bash/" "rust/" "go/" "python/" "dlang/" "./" "ocaml/" "reason/" "java/" "haskell/" "various/" "../")
+
+ ("/home/jboadas/" (23068 695 152467 357000) ".eclipse/" ".xfce4-session.verbose-log.last" "mono/" ".gksu.lock" "GOG Games/" ".mplayer/" ".putty/" ".ghc/" ".designer/" ".mysql_history" "python.emacs.d.tar.gz" ".aspell.es.prepl" ".ICEauthority" ".macromedia/" ".vscode/" ".wget-hsts" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".dlangide/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".navicat64/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" "Nov27-1.avi" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".pylint.d/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" ".nimble/" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".wingpersonal6/" ".Xclients" ".gtk-bookmarks" ".eric6/" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".idlerc/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" "websites/" ".ipython/" ".swt/" ".pylintrc" ".rustup/" ".crawl/" ".icons/" ".httrack.ini" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" "haskell-emacs.d/" ".dropbox-dist/" ".dir_colors" ".mysql/" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".lesshst" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".nuget/" ".dmrc" ".ninja_ide/" "../" ".esd_auth" ".dub/" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
+
  ("/home/jboadas/python.emacs.d/" (23046 11814 609657 996000) "snippets/" "README.md" "elpa/" "init.el" "./" ".git/" "auto-save-list/" "ido.last" "themes/" "../" "semanticdb/")
 
  ("/home/jboadas/.emacs.d/" (23049 57321 758302 786000) "README.md" "elpa/" "init.el" "./" ".git/" "auto-save-list/" "ido.last" "themes/" "../")
 
- ("/home/jboadas/" (23049 57321 691635 424000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".mplayer/" ".putty/" ".ghc/" ".designer/" ".mysql_history" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".navicat64/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" "Nov13-4.avi" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".pylint.d/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".wingpersonal6/" ".Xclients" ".gtk-bookmarks" ".eric6/" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".idlerc/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" "python.emacs.d/" ".netbeans/" "jagexcache/" ".xsession-errors" ".ipython/" ".swt/" ".pylintrc" ".crawl/" ".icons/" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".mysql/" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".lesshst" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".dmrc" ".ninja_ide/" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/" "python.emacs.d.zip")
-
  ("/home/jboadas/devel/various/" (22904 60680 200515 298000) "Cataclysm-DDA/" "TerraFirma.tar.gz" "TerraFirma/" "./" "../")
-
- ("/home/jboadas/devel/" (22971 59388 919198 373000) "bash/" "go/" "python/" "./" "ocaml/" "java/" "various/" "../")
 
  ("c:/devel/haskell/my-yesod/templates/" (22592 11151 0 0) "profile.hamlet" "homepage.lucius" "homepage.julius" "homepage.hamlet" "default-layout.lucius" "default-layout.hamlet" "default-layout-wrapper.hamlet" "../" "./")
 
